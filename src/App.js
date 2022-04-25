@@ -50,7 +50,7 @@ function App() {
     <ul className='list-group list-group-flush p-0 m-0'>
      { items.map(item => {
         return(
-          <li key = {item.id} className='text-secondary list-group-item m-0 p-2 ps-0 fs-5 d-flex justify-content-between'>
+          <li key = {item.id} className='text-secondary list-group-item m-0 p-3 ps-0 fs-5 d-flex justify-content-between'>
             {item.value}
             <button className='border-0 rounded bg-danger py-1 px-3 text-white'
               onClick={() => deleteItem( item.id )}
